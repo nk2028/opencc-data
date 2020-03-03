@@ -1,0 +1,19 @@
+{
+  "name": "opencc-data",
+  "version": "0.0.1",
+  "description": "Recollection of OpenCC data",
+  "main": null,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgalal/opencc-data.git"
+  },
+  "author": "sgalal",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sgalal/opencc-data/issues"
+  },
+  "homepage": "https://github.com/sgalal/opencc-data#readme"
+}
