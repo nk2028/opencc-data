@@ -1,6 +1,6 @@
 {
   "name": "opencc-data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Recollection of OpenCC data",
   "main": null,
   "scripts": {
@@ -12,6 +12,18 @@
   },
   "author": "sgalal",
   "license": "Apache-2.0",
+  "keywords": [
+    "opencc",
+    "Chinese",
+    "unicode",
+    "Chinese Language",
+    "Simplified Chinese",
+    "Traditional Chinese",
+    "chinese-language",
+    "chinese-characters",
+    "traditional-chinese",
+    "simplified-chinese"
+  ],
   "bugs": {
     "url": "https://github.com/sgalal/opencc-data/issues"
   },
