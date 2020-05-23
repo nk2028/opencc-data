@@ -1,16 +1,16 @@
 {
   "name": "opencc-data",
-  "version": "0.0.4",
-  "description": "Recollection of OpenCC data",
+  "version": "1.0.0",
+  "description": "Collection of OpenCC data",
   "main": null,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ngkhyen2028/opencc-data.git"
+    "url": "git+https://github.com/nk2028/opencc-data.git"
   },
-  "author": "The Ngioxkhyen 2028 Project",
+  "author": "The Ngiox Khyen 2028 Project",
   "license": "Apache-2.0",
   "keywords": [
     "opencc",
@@ -25,7 +25,7 @@
     "simplified-chinese"
   ],
   "bugs": {
-    "url": "https://github.com/ngkhyen2028/opencc-data/issues"
+    "url": "https://github.com/nk2028/opencc-data/issues"
   },
-  "homepage": "https://github.com/ngkhyen2028/opencc-data#readme"
+  "homepage": "https://github.com/nk2028/opencc-data#readme"
 }
