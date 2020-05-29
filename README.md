@@ -4,7 +4,7 @@ Collection of [OpenCC](https://github.com/BYVoid/OpenCC) data.
 
 ## 用法
 
-以下是 opencc-data 版本 1.0.0 的文件列表。
+以下是 opencc-data 版本 1.0.x 的文件列表。
 
 將各變體轉換為 OpenCC 標準：
 
