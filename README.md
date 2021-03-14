@@ -1,29 +1,39 @@
-# opencc-data [![JSDelivr badge](https://data.jsdelivr.com/v1/package/npm/opencc-data/badge)](https://www.jsdelivr.com/package/npm/opencc-data)
+# opencc-data [![](https://badge.fury.io/js/opencc-data.svg)](https://www.npmjs.com/package/opencc-data) [![JSDelivr badge](https://data.jsdelivr.com/v1/package/npm/opencc-data/badge)](https://www.jsdelivr.com/package/npm/opencc-data)
 
-Collection of [OpenCC](https://github.com/BYVoid/OpenCC) data.
+A collection of word lists for Simplified and Traditional Chinese conversions from the [OpenCC](https://github.com/BYVoid/OpenCC) project
 
-## 用法
+## Usage
 
-以下是 opencc-data 版本 1.0.x 的文件列表。
+The data files of opencc-data (version 1.0.x) is listed below.
 
-將各變體轉換為 OpenCC 標準：
+**From Chinese variants to OpenCC standard:**
 
 ```json
-{ "cn": ["STCharacters", "STPhrases"]
-, "hk": ["HKVariantsRev", "HKVariantsRevPhrases"]
-, "tw": ["TWVariantsRev", "TWVariantsRevPhrases"]
-, "twp": ["TWVariantsRev", "TWVariantsRevPhrases", "TWPhrasesRev"]
-, "jp": ["JPVariantsRev", "JPShinjitaiCharacters", "JPShinjitaiPhrases"]
+{
+  "cn": ["STCharacters", "STPhrases"],
+  "tw": ["TWVariantsRev", "TWVariantsRevPhrases"],
+  "twp": ["TWVariantsRev", "TWVariantsRevPhrases", "TWPhrasesRev"],
+  "hk": ["HKVariantsRev", "HKVariantsRevPhrases"],
+  "jp": ["JPVariantsRev", "JPShinjitaiCharacters", "JPShinjitaiPhrases"]
 }
 ```
 
-將 OpenCC 標準轉換為各變體：
+**From OpenCC standard to Chinese variants:**
 
 ```json
-{ "cn": ["TSCharacters", "TSPhrases"]
-, "hk": ["HKVariants"]
-, "tw": ["TWVariants"]
-, "twp": ["TWVariants", "TWPhrasesIT", "TWPhrasesName", "TWPhrasesOther"]
-, "jp": ["JPVariants"]
+{
+  "cn": ["TSCharacters", "TSPhrases"],
+  "hk": ["HKVariants"],
+  "tw": ["TWVariants"],
+  "twp": ["TWVariants", "TWPhrasesIT", "TWPhrasesName", "TWPhrasesOther"],
+  "jp": ["JPVariants"]
 }
 ```
+
+**Explanation of the Chinese variants above:**
+
+- `cn`: Simplified Chinese (Mainland China)
+- `tw`: Traditional Chinese (Taiwan)
+- `twp`: Traditional Chinese (Taiwan, with phrase conversion)
+- `hk`: Traditional Chinese (Hong Kong)
+- `jp`: Japanese Shinjitai
