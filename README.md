@@ -37,3 +37,11 @@ The data files of opencc-data (version 1.0.x) is listed below.
 - `twp`: Traditional Chinese (Taiwan, with phrase conversion)
 - `hk`: Traditional Chinese (Hong Kong)
 - `jp`: Japanese Shinjitai
+
+## Development Guides
+
+To fetch and update nesest data from OpenCC, run the following command:
+
+```bash
+$ make update:data
+```
