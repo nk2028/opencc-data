@@ -1,6 +1,6 @@
 {
   "name": "opencc-data",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Collection of OpenCC data",
   "main": null,
   "scripts": {
