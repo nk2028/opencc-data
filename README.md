@@ -11,7 +11,10 @@ This project is primarily maintained for use with [opencc-js](https://github.com
 
 ## Usage
 
-The data files prioritize canonical data from the OpenCC project.
+The data files prioritize canonical data from the OpenCC project. The following configurations are strictly consistent with the logic in OpenCC's `.json` configuration files:
+
+- **Outer Array (Stages)**: Represents the conversion-chain stages.
+- **Inner Array (Groups)**: Represents a dictionary group used within one stage; dictionaries earlier in the group have higher priority when their entries overlap (merged relationship).
 
 **From Chinese variants to OpenCC standard:**
 
