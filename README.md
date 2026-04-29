@@ -1,20 +1,27 @@
 # opencc-data [![](https://badge.fury.io/js/opencc-data.svg)](https://www.npmjs.com/package/opencc-data) [![JSDelivr badge](https://data.jsdelivr.com/v1/package/npm/opencc-data/badge)](https://www.jsdelivr.com/package/npm/opencc-data)
 
-A collection of word lists for Simplified and Traditional Chinese conversions from the [OpenCC](https://github.com/BYVoid/OpenCC) project
+A collection of word lists for Simplified and Traditional Chinese conversions from the [OpenCC](https://github.com/BYVoid/OpenCC) project.
+
+## Compatibility
+
+This project is primarily maintained for use with [opencc-js](https://github.com/nk2028/opencc-js).
+
+- **Strict Version Matching**: Compatibility is only guaranteed when the version of `opencc-data` strictly matches the version of the consumer package.
+- **Breaking Changes**: We do not guarantee compatibility between different versions of `opencc-data`. Structure or file names may change to align with upstream OpenCC updates.
 
 ## Usage
 
-The data files of opencc-data (version 1.0.x) is listed below.
+The data files prioritize canonical data from the OpenCC project.
 
 **From Chinese variants to OpenCC standard:**
 
 ```json
 {
   "cn": ["STCharacters", "STPhrases"],
-  "tw": ["TWVariantsRev", "TWVariantsRevPhrases"],
-  "twp": ["TWVariantsRev", "TWVariantsRevPhrases", "TWPhrasesRev"],
-  "hk": ["HKVariantsRev", "HKVariantsRevPhrases"],
-  "jp": ["JPVariantsRev", "JPShinjitaiCharacters", "JPShinjitaiPhrases"]
+  "tw": ["TWVariantsRevPhrases"],
+  "twp": ["TWVariantsRevPhrases", "TWPhrasesRev"],
+  "hk": ["HKVariantsRevPhrases"],
+  "jp": ["JPShinjitaiCharacters", "JPShinjitaiPhrases"]
 }
 ```
 
@@ -25,7 +32,7 @@ The data files of opencc-data (version 1.0.x) is listed below.
   "cn": ["TSCharacters", "TSPhrases"],
   "hk": ["HKVariants"],
   "tw": ["TWVariants"],
-  "twp": ["TWVariants", "TWPhrasesIT", "TWPhrasesName", "TWPhrasesOther"],
+  "twp": ["TWVariants", "TWPhrases"],
   "jp": ["JPVariants"]
 }
 ```
