@@ -1,0 +1,62 @@
+name: Sync OpenCC Dictionary Data from Upstream
+
+on:
+  workflow_dispatch:
+    inputs:
+      upstream_ref:
+        description: 'Commit ID or Tag from byvoid/OpenCC'
+        required: true
+        default: 'master'
+      version:
+        description: 'New version number for package.json'
+        required: true
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Checkout current repository
+        uses: actions/checkout@v4
+
+      - name: Checkout byvoid/OpenCC
+        uses: actions/checkout@v4
+        with:
+          repository: byvoid/OpenCC
+          ref: ${{ github.event.inputs.upstream_ref }}
+          path: upstream-opencc
+
+      - name: Sync data files
+        run: |
+          # Use rsync to strictly sync the dictionary directory
+          # -a: archive mode (preserves permissions, etc.)
+          # -v: verbose
+          # --delete: delete files in destination that are not in source
+          rsync -av --delete \
+            upstream-opencc/data/dictionary/ \
+            data/
+          # Remove the upstream clone to clean up
+          rm -rf upstream-opencc
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Update package.json version
+        run: |
+          npm version ${{ github.event.inputs.version }} --no-git-tag-version
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "chore: update data from byvoid/OpenCC@${{ github.event.inputs.upstream_ref }} to version ${{ github.event.inputs.version }}"
+          title: "Sync dictionary data from byvoid/OpenCC@${{ github.event.inputs.upstream_ref }}"
+          body: |
+            Automated sync from upstream.
+            - Upstream ref: `${{ github.event.inputs.upstream_ref }}`
+            - New version: `${{ github.event.inputs.version }}`
+          branch: sync-data
+          base: main
