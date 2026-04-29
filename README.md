@@ -17,11 +17,11 @@ The data files prioritize canonical data from the OpenCC project.
 
 ```json
 {
-  "cn": ["STCharacters", "STPhrases"],
-  "tw": ["TWVariantsRevPhrases"],
-  "twp": ["TWVariantsRevPhrases", "TWPhrasesRev"],
-  "hk": ["HKVariantsRevPhrases"],
-  "jp": ["JPShinjitaiCharacters", "JPShinjitaiPhrases"]
+  "cn": [["STPhrases", "STCharacters"]],
+  "hk": [["HKVariantsRevPhrases", "HKVariantsRev"]],
+  "tw": [["TWVariantsRevPhrases", "TWVariantsRev"]],
+  "twp": [["TWPhrasesRev", "TWVariantsRevPhrases", "TWVariantsRev"]],
+  "jp": [["JPShinjitaiPhrases", "JPShinjitaiCharacters", "JPVariantsRev"]]
 }
 ```
 
@@ -29,11 +29,11 @@ The data files prioritize canonical data from the OpenCC project.
 
 ```json
 {
-  "cn": ["TSCharacters", "TSPhrases"],
-  "hk": ["HKVariants"],
-  "tw": ["TWVariants"],
-  "twp": ["TWVariants", "TWPhrases"],
-  "jp": ["JPVariants"]
+  "cn": [["TSPhrases", "TSCharacters"]],
+  "hk": [["HKVariants"]],
+  "tw": [["TWVariants"]],
+  "twp": [["TWPhrases"], ["TWVariants"]],
+  "jp": [["JPVariants"]]
 }
 ```
 
