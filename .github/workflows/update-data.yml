@@ -54,7 +54,8 @@ jobs:
 
       - name: Update package.json version
         run: |
-          npm version ${{ github.event.inputs.version }} --no-git-tag-version
+          npm version "${{ github.event.inputs.version }}" --no-git-tag-version || \
+            echo "::warning::Skipping package.json version update because '${{ github.event.inputs.version }}' is not a valid npm version."
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v7
