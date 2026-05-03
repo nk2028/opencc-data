@@ -42,7 +42,7 @@ jobs:
           find data -mindepth 1 -type d -empty -delete
 
           mkdir -p test-data
-          cp upstream-opencc/test/testcases.json test-data/testcases.json
+          cp upstream-opencc/test/testcases/testcases.json test-data/testcases.json
 
           # Remove the upstream clone to clean up
           rm -rf upstream-opencc

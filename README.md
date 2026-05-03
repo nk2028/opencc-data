@@ -11,7 +11,7 @@ This project is primarily maintained for use with [opencc-js](https://github.com
 
 ## Data Sync Policy
 
-This package only syncs upstream-authored content that should not be mechanically generated downstream: OpenCC dictionary `.txt` files and `test/testcases.json`. Reverse dictionaries are included only when they are present in upstream OpenCC; this repository does not generate additional reverse dictionary files locally.
+This package only syncs upstream-authored content that should not be mechanically generated downstream: OpenCC dictionary `.txt` files and `test/testcases/testcases.json`. Reverse dictionaries are included only when they are present in upstream OpenCC; this repository does not generate additional reverse dictionary files locally.
 
 ## Usage
 
