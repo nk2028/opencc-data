@@ -44,6 +44,8 @@ The data files prioritize canonical data from the OpenCC project. The following 
 }
 ```
 
+`TSCharactersExt` contains rare inferred simplified forms that may render as tofu (missing glyph boxes) in common fonts. It should generally be omitted unless those extended mappings are explicitly required.
+
 **Explanation of the Chinese variants above:**
 
 - `cn`: Simplified Chinese (Mainland China)
