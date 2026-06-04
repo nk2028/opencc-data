@@ -28,18 +28,38 @@ jobs:
           ref: ${{ github.event.inputs.upstream_ref }}
           path: upstream-opencc
 
+      - name: Setup Bazelisk
+        uses: bazelbuild/setup-bazelisk@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Build upstream generated dictionaries
+        working-directory: upstream-opencc
+        run: bazel build //data/dictionary:all
+
       - name: Sync upstream data files
         run: |
-          # Sync only upstream dictionary text files. This repository tracks
-          # upstream-authored data and does not generate reverse dictionaries.
+          # Sync only upstream dictionary text files.
           rsync -av --delete \
             --include='*/' \
             --include='*.txt' \
             --exclude='*' \
             upstream-opencc/data/dictionary/ \
             data/
-          find data -mindepth 1 -type f ! -name '*.txt' -delete
-          find data -mindepth 1 -type d -empty -delete
+          find upstream-opencc/bazel-bin/data/dictionary -maxdepth 1 -type f -name '*.txt' -exec cp {} data/ \;
+          find data -mindepth 1 -maxdepth 1 -type f ! -name '*.txt' -delete
+          find data -mindepth 1 -maxdepth 1 -type d ! -name config -empty -delete
+
+          mkdir -p data/config
+          rsync -av --delete \
+            --include='*/' \
+            --include='*.json' \
+            --exclude='*' \
+            upstream-opencc/data/config/ \
+            data/config/
 
           mkdir -p test-data
           cp upstream-opencc/test/testcases/testcases.json test-data/testcases.json

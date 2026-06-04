@@ -11,7 +11,7 @@ This project is primarily maintained for use with [opencc-js](https://github.com
 
 ## Data Sync Policy
 
-This package only syncs upstream-authored content that should not be mechanically generated downstream: OpenCC dictionary `.txt` files and `test/testcases/testcases.json`. Reverse dictionaries are included only when they are present in upstream OpenCC; this repository does not generate additional reverse dictionary files locally.
+This package syncs upstream OpenCC dictionary `.txt` files, config `.json` files, and `test/testcases/testcases.json`. It also generates and checks in derived dictionaries during data sync: `TSCharactersExt.txt` from `TSCharacters.txt`, plus the reverse variant dictionaries `HKVariantsRev.txt`, `TWVariantsRev.txt`, and `JPVariantsRev.txt` from their corresponding variant dictionaries.
 
 ## Usage
 
@@ -36,10 +36,10 @@ The data files prioritize canonical data from the OpenCC project. The following 
 
 ```json
 {
-  "cn": [["TSPhrases", "TSCharacters"]],
-  "hk": [["HKVariants"]],
-  "tw": [["TWVariants"]],
-  "twp": [["TWPhrases"], ["TWVariants"]],
+  "cn": [["TSPhrases", "TSCharactersExt", "TSCharacters"]],
+  "hk": [["HKVariantsPhrases", "HKVariants"]],
+  "tw": [["TWVariantsPhrases", "TWVariants"]],
+  "twp": [["TWPhrases"], ["TWVariantsPhrases", "TWVariants"]],
   "jp": [["JPVariants"]]
 }
 ```
