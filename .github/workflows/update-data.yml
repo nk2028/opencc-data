@@ -36,36 +36,37 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Build upstream generated dictionaries
+      - name: Build OpenCC resource zip
         working-directory: upstream-opencc
-        run: bazel build //data/dictionary:all
+        run: bazel build //data:opencc_resources_zip
 
       - name: Sync upstream data files
         run: |
-          # Sync only upstream dictionary text files.
-          rsync -av --delete \
-            --include='*/' \
-            --include='*.txt' \
-            --exclude='*' \
-            upstream-opencc/data/dictionary/ \
-            data/
-          find upstream-opencc/bazel-bin/data/dictionary -maxdepth 1 -type f -name '*.txt' -exec cp {} data/ \;
-          find data -mindepth 1 -maxdepth 1 -type f ! -name '*.txt' -delete
-          find data -mindepth 1 -maxdepth 1 -type d ! -name config -empty -delete
+          # Extract the resource zip to a temp directory
+          mkdir -p /tmp/opencc-resources
+          unzip upstream-opencc/bazel-bin/data/opencc-resources.zip -d /tmp/opencc-resources
 
+          # Replace data/config/ with json configs from zip (excluding the manifest)
+          rm -rf data/config
           mkdir -p data/config
-          rsync -av --delete \
-            --include='*/' \
-            --include='*.json' \
-            --exclude='*' \
-            upstream-opencc/data/config/ \
-            data/config/
+          find /tmp/opencc-resources -maxdepth 1 -name '*.json' ! -name 'opencc-resource-manifest.json' \
+            -exec cp {} data/config/ \;
 
+          # Replace data/ txt files with dictionary files from zip
+          find data -maxdepth 1 -type f -delete
+          find /tmp/opencc-resources -maxdepth 1 -name '*.txt' -exec cp {} data/ \;
+
+          # Copy testdata (original method)
           mkdir -p test-data
           cp upstream-opencc/test/testcases/testcases.json test-data/testcases.json
 
-          # Remove the upstream clone to clean up
+          # Remove upstream clone (keep /tmp/opencc-resources for the next step)
           rm -rf upstream-opencc
+
+      - name: Add copyright headers to dictionary files
+        run: |
+          python3 scripts/add_dict_headers.py /tmp/opencc-resources/opencc-resource-manifest.json "${{ github.event.inputs.upstream_ref }}"
+          rm -rf /tmp/opencc-resources
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
