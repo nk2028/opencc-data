@@ -1,0 +1,146 @@
+{
+  "build_time_utc": "1970-01-01T00:00:00+00:00",
+  "commit_id": "07bdf693cda403ce92a4a0efe1ef70939d13c8dd",
+  "entries": {
+    "HKVariants.txt": {
+      "sha256": "114c915795f665ebf0567bd7b2f7492eb3560a7deb6da60fbaf42479b20cb7e9",
+      "size": 524
+    },
+    "HKVariantsPhrases.txt": {
+      "sha256": "25d128c9e351960d771debd87529396c160e9734951b3fa868c36cf45e5fd47f",
+      "size": 162
+    },
+    "HKVariantsRev.txt": {
+      "sha256": "5bc0309d20a832a1029b81b5e8eda025302f1de44772198f9ee785e5142b95ac",
+      "size": 564
+    },
+    "HKVariantsRevPhrases.txt": {
+      "sha256": "064afab88987647d6720306b5e34585a359526382a7cb83dec7f69d600a43c0e",
+      "size": 21345
+    },
+    "JPShinjitaiCharacters.txt": {
+      "sha256": "0078ee41ff026f1cf05e4382e835baa9349f46ad32cd7fcc83baf736a4ff9b09",
+      "size": 96
+    },
+    "JPShinjitaiPhrases.txt": {
+      "sha256": "c888eabc59da37b4b0e476669656d4415251261d6926a4285aa0a4c51ae81e97",
+      "size": 2544
+    },
+    "JPVariants.txt": {
+      "sha256": "ce4b042350cb7311d66031a6d44d2f04a2baa9c9da6ace60af23f7320e1d07b8",
+      "size": 2968
+    },
+    "JPVariantsRev.txt": {
+      "sha256": "6f79e8eb91d5263e0f115c5a7d6afcc3de58be1f90200bcd417e2023ef6cefb1",
+      "size": 2968
+    },
+    "STCharacters.txt": {
+      "sha256": "668d86fb1bf5ed0be34597ea342cfda4caae22d0843b5060b30c121ff82fd0a2",
+      "size": 34375
+    },
+    "STPhrases.txt": {
+      "sha256": "b081be01ffcf6c742fa9861403da23b0631acc03da6b7e3120fc1a448cd843ec",
+      "size": 1007067
+    },
+    "TSCharacters.txt": {
+      "sha256": "9b60551660a445812e94c6ca19b3a6c68d49f80cd9a8fff0644833098eb99536",
+      "size": 38526
+    },
+    "TSCharactersExt.txt": {
+      "sha256": "9595aa83bce940fce943b5f6eafff6ad08043dbcd3609f19e53a500633fe87da",
+      "size": 8335
+    },
+    "TSPhrases.txt": {
+      "sha256": "37031bbe3410a630c0e342d83b4cdf3051f501a841bf27299a355773bd6090a1",
+      "size": 5440
+    },
+    "TWPhrases.txt": {
+      "sha256": "d8a34714c4582036958b55b5c916811902a61ef41ea10cf09ec402903d413752",
+      "size": 14868
+    },
+    "TWPhrasesRev.txt": {
+      "sha256": "4d9fff0d12f1b3d4be560523760b8a8201881c506c4e9d1bd2da1f1f833ed38d",
+      "size": 14754
+    },
+    "TWVariants.txt": {
+      "sha256": "18997da9cc9e66a54ad193d59274a414e2225606812ee747519a2e0e420361d7",
+      "size": 304
+    },
+    "TWVariantsPhrases.txt": {
+      "sha256": "3df0baae92d2b4d06c4e5a2d5357bb1b8493755b441fa183a0a6ee9995595a07",
+      "size": 104
+    },
+    "TWVariantsRev.txt": {
+      "sha256": "bd2fbbdb7c7d481e245ce3952ccc2c11d20c8bd3ca466d0bf6b356818eeed7ff",
+      "size": 304
+    },
+    "TWVariantsRevPhrases.txt": {
+      "sha256": "c8b7023a800dc45b3a817595fd865b360d7860203784f9c2ebfe9de116456734",
+      "size": 19913
+    },
+    "hk2s.json": {
+      "sha256": "ecb3e9e66d7c485edf0f701d1731ed5b89a8a1c8adf6c4f8524e151472577a51",
+      "size": 910
+    },
+    "hk2t.json": {
+      "sha256": "c8d0897e13fbbf94225dfec535e791dbb72055c21ab56519c3f40d7b51668d2b",
+      "size": 537
+    },
+    "jp2t.json": {
+      "sha256": "4e3d38dd49d0ae01bf03bfa966bc66505ffced139fc4587842dd4e7de9870c46",
+      "size": 630
+    },
+    "opencc_config.schema.json": {
+      "sha256": "d4d06d5331efebe7ac3b00fe513b544f80b55d8a2031c4154c4905d70adadede",
+      "size": 3074
+    },
+    "s2hk.json": {
+      "sha256": "177589d1b2c5c8b0c7aa260be9db20519a8628b875a2a81a2d7a497046c2888e",
+      "size": 772
+    },
+    "s2t.json": {
+      "sha256": "4868a5906f96026a99c5a73992411e70b703805db1ff03aa0c8d2552b3658bff",
+      "size": 493
+    },
+    "s2tw.json": {
+      "sha256": "d998f4a8a54b19e372b1f7c34fa4334d5e89b79d6cf4801060701e19878790a0",
+      "size": 770
+    },
+    "s2twp.json": {
+      "sha256": "5b4f920173def5208478e5456c11b880f4b24c11ae72a4048b1748f485b4e626",
+      "size": 884
+    },
+    "t2hk.json": {
+      "sha256": "11c8b162d2638e0c19623b98905f49a84bc888aac59b95157ae8a9cfa1de7f3d",
+      "size": 686
+    },
+    "t2jp.json": {
+      "sha256": "e4ced2b6ce82073a9067bab53cc472eb3acae5820d5bdbda08c83f9a44830e09",
+      "size": 334
+    },
+    "t2s.json": {
+      "sha256": "459c2fdff946b6376dc1d9284d8363b22f10ce51a0bdf8eb299fe8ba4de2af82",
+      "size": 625
+    },
+    "t2tw.json": {
+      "sha256": "333a7231729501026db45196718c0fe271bf61588a4540c9a07500ba529376d2",
+      "size": 684
+    },
+    "tw2s.json": {
+      "sha256": "9006caf98f6d54e7456bf0bf00863d3963dac4a95e758fb4807a4632d30885e1",
+      "size": 908
+    },
+    "tw2sp.json": {
+      "sha256": "1f8f0b2bb48418b0d21d27118568845b09ff5b8ca33c3175ef64874f67380e62",
+      "size": 1025
+    },
+    "tw2t.json": {
+      "sha256": "26a8a2e946453dc62f2502ac27b5b482751e37196ed62ea3dd90fd5925d47254",
+      "size": 535
+    }
+  },
+  "hash_algorithm": "sha256",
+  "manifest_version": 1,
+  "source_dirty": false,
+  "source_url": "https://github.com/BYVoid/OpenCC"
+}
