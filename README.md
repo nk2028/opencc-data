@@ -20,3 +20,15 @@ This package syncs dictionary `.txt` files and config `.json` files from OpenCC'
 Use the config files shipped in `data/config/` as the source of truth for dictionary order and conversion-chain behavior. Config contents can change between OpenCC versions, so consumers should load the matching config file for the package version they depend on instead of hard-coding dictionary lists from this README.
 
 Dictionary text files are shipped in `data/`. Config files reference those dictionaries by file name and preserve OpenCC's stage/group ordering semantics.
+
+Python consumers can install the `opencc-data` package from PyPI and use the `opencc_data` module to locate packaged resources:
+
+```python
+import opencc_data
+
+config_file = opencc_data.config_path("s2t.json")
+dictionary_file = opencc_data.data_path("STCharacters.txt")
+testcases_file = opencc_data.test_data_path("testcases.json")
+```
+
+Release versions match across npm and PyPI, such as `1.3.2`. For `next` prereleases, PyPI uses the PEP 440 equivalent of the npm version: `1.3.2-next.20260628` is published to PyPI as `1.3.2.dev20260628`.

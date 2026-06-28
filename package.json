@@ -1,7 +1,7 @@
 {
   "name": "opencc-data",
   "version": "1.3.2-next.20260628",
-  "description": "Collection of OpenCC dictionary data",
+  "description": "Collection of OpenCC dictionary data, configs, and test data",
   "main": null,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

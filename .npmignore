@@ -1,4 +1,12 @@
 /.github
 /.gitattributes
 /.opencc-resource-manifest.json
+/.venv-build
+/build
+/dist
 /scripts
+/*.egg-info
+/MANIFEST.in
+/opencc_data
+/pyproject.toml
+/setup.py
