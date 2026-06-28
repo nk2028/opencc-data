@@ -1,3 +1,8 @@
+# Open Chinese Convert (OpenCC) Dictionary
+# File: TSCharactersExt.txt (Generated from: TSCharacters.txt)
+# License: Apache-2.0 (see LICENSE)
+# Source: https://github.com/BYVoid/OpenCC
+
 㑮	𫝈
 㒓	𠉂
 㓄	𪠟

@@ -1,66 +1,78 @@
 {
-  "build_time_utc": "1970-01-01T00:00:00+00:00",
-  "commit_id": "07bdf693cda403ce92a4a0efe1ef70939d13c8dd",
+  "build_time_utc": "2026-06-28T03:45:06+00:00",
+  "commit_id": "unknown",
   "entries": {
+    "CJK_Compatibility_Ideographs.txt": {
+      "sha256": "5ee4a07d93aafee09cd4417db067dbd42eac53ad4c6666d546ea58218b68f9ba",
+      "size": 8670
+    },
+    "HKPhrases.txt": {
+      "sha256": "601ae30a8cf326134576ec8aee25db36ecc20c0280c80b698ecf439b9016579d",
+      "size": 999
+    },
+    "HKPhrasesRev.txt": {
+      "sha256": "09c823f4e75201c833c13fff78275e899ff7b29df94732123bf6dc3aa35ebf8b",
+      "size": 948
+    },
     "HKVariants.txt": {
-      "sha256": "114c915795f665ebf0567bd7b2f7492eb3560a7deb6da60fbaf42479b20cb7e9",
-      "size": 524
+      "sha256": "27da0eab379a2e34797c364e47219973235468a8ad2813c3cc4595764400cf12",
+      "size": 572
     },
     "HKVariantsPhrases.txt": {
-      "sha256": "25d128c9e351960d771debd87529396c160e9734951b3fa868c36cf45e5fd47f",
-      "size": 162
+      "sha256": "201c598ca13c2ed580f222ff4f2c4a25d6ab2e1adc57e545fbad7aa268be9e0a",
+      "size": 6334
     },
     "HKVariantsRev.txt": {
-      "sha256": "5bc0309d20a832a1029b81b5e8eda025302f1de44772198f9ee785e5142b95ac",
-      "size": 564
+      "sha256": "e9392136bbd7b4c9ec55b04bfa1f33fc10b08f40a5236bfe8a227d642230b724",
+      "size": 604
     },
     "HKVariantsRevPhrases.txt": {
-      "sha256": "064afab88987647d6720306b5e34585a359526382a7cb83dec7f69d600a43c0e",
-      "size": 21345
+      "sha256": "7e3270c4a878464a84ad686276ee70282e45fff691f97644c73fa1796372175d",
+      "size": 5981
     },
     "JPShinjitaiCharacters.txt": {
-      "sha256": "0078ee41ff026f1cf05e4382e835baa9349f46ad32cd7fcc83baf736a4ff9b09",
-      "size": 96
+      "sha256": "11d5e37fcfaddf108ce7b95844cb60e41b27a70fbe89150dbec1661bff990968",
+      "size": 3408
+    },
+    "JPShinjitaiCharactersRev.txt": {
+      "sha256": "f6927eacc3a04ae0e2ecba8da33886d39a262571f81fe387b7774da4e7f70c3c",
+      "size": 3680
     },
     "JPShinjitaiPhrases.txt": {
-      "sha256": "c888eabc59da37b4b0e476669656d4415251261d6926a4285aa0a4c51ae81e97",
-      "size": 2544
-    },
-    "JPVariants.txt": {
-      "sha256": "ce4b042350cb7311d66031a6d44d2f04a2baa9c9da6ace60af23f7320e1d07b8",
-      "size": 2968
-    },
-    "JPVariantsRev.txt": {
-      "sha256": "6f79e8eb91d5263e0f115c5a7d6afcc3de58be1f90200bcd417e2023ef6cefb1",
-      "size": 2968
+      "sha256": "7c5cb687a0764e083f967f155c7b125d40226222b3d443fa1793e3fbc4a9a716",
+      "size": 3574
     },
     "STCharacters.txt": {
-      "sha256": "668d86fb1bf5ed0be34597ea342cfda4caae22d0843b5060b30c121ff82fd0a2",
-      "size": 34375
+      "sha256": "b2efdcb0fbc05e5538aac56bbe5e189b5e2f38a3eaee866d211f0d2d34df0a9b",
+      "size": 34771
     },
     "STPhrases.txt": {
-      "sha256": "b081be01ffcf6c742fa9861403da23b0631acc03da6b7e3120fc1a448cd843ec",
-      "size": 1007067
+      "sha256": "0008c5dbf93773e5cbd4a65a286cff7aca9c51e03d657748b2d618b11ae3fbf5",
+      "size": 1004331
+    },
+    "STPhrases_GeneratedFromRegionalPhrases.txt": {
+      "sha256": "eacead794ffe80db90aaa28f787d1a4f47961552c71dbfb10cc3ea822feedaa0",
+      "size": 13329
     },
     "TSCharacters.txt": {
-      "sha256": "9b60551660a445812e94c6ca19b3a6c68d49f80cd9a8fff0644833098eb99536",
-      "size": 38526
+      "sha256": "c611c3556dff86133667a61096e8a964f245fad31a4c973df1f9b31c5cc06f89",
+      "size": 38922
     },
     "TSCharactersExt.txt": {
       "sha256": "9595aa83bce940fce943b5f6eafff6ad08043dbcd3609f19e53a500633fe87da",
       "size": 8335
     },
     "TSPhrases.txt": {
-      "sha256": "37031bbe3410a630c0e342d83b4cdf3051f501a841bf27299a355773bd6090a1",
-      "size": 5440
+      "sha256": "7b3b19d32bfd7e7ea4dc4fdb4af1bb309edad22924d5ef5eef97746c23a1d1ec",
+      "size": 8361
     },
     "TWPhrases.txt": {
-      "sha256": "d8a34714c4582036958b55b5c916811902a61ef41ea10cf09ec402903d413752",
-      "size": 14868
+      "sha256": "fc3cc2d187cff8dcf3b0626766dcf9cfe3916290b9066d9d4f6d84f24237f7a5",
+      "size": 17513
     },
     "TWPhrasesRev.txt": {
-      "sha256": "4d9fff0d12f1b3d4be560523760b8a8201881c506c4e9d1bd2da1f1f833ed38d",
-      "size": 14754
+      "sha256": "25d25172fd8be34c60eee76e161275ad138f9ee39ddd213088f114286474ad9e",
+      "size": 17342
     },
     "TWVariants.txt": {
       "sha256": "18997da9cc9e66a54ad193d59274a414e2225606812ee747519a2e0e420361d7",
@@ -75,72 +87,76 @@
       "size": 304
     },
     "TWVariantsRevPhrases.txt": {
-      "sha256": "c8b7023a800dc45b3a817595fd865b360d7860203784f9c2ebfe9de116456734",
-      "size": 19913
+      "sha256": "7b3ccf3949b4534e9116fe33ca8e8890099678f3790b5ad948b1fd9e1c0caf81",
+      "size": 20107
     },
     "hk2s.json": {
-      "sha256": "ecb3e9e66d7c485edf0f701d1731ed5b89a8a1c8adf6c4f8524e151472577a51",
-      "size": 910
+      "sha256": "940b478fed403ff2d0c3e98ce7fbf9a7623418ac18a0fabc3c113d2329ae5f59",
+      "size": 1129
+    },
+    "hk2sp.json": {
+      "sha256": "96af4065749983b1aec05817c01ec06e3def619c2611eb55f013e21eaa61c9b7",
+      "size": 1236
     },
     "hk2t.json": {
-      "sha256": "c8d0897e13fbbf94225dfec535e791dbb72055c21ab56519c3f40d7b51668d2b",
-      "size": 537
+      "sha256": "03b21104ceb227545ab8598c30f055f6c876836b7d0394f7e1aafe8db7bec037",
+      "size": 715
     },
     "jp2t.json": {
-      "sha256": "4e3d38dd49d0ae01bf03bfa966bc66505ffced139fc4587842dd4e7de9870c46",
-      "size": 630
-    },
-    "opencc_config.schema.json": {
-      "sha256": "d4d06d5331efebe7ac3b00fe513b544f80b55d8a2031c4154c4905d70adadede",
-      "size": 3074
+      "sha256": "8bf63e5286566410091c9b5d78b5a13618ef93b7bec359614b3cabea52775ab1",
+      "size": 703
     },
     "s2hk.json": {
-      "sha256": "177589d1b2c5c8b0c7aa260be9db20519a8628b875a2a81a2d7a497046c2888e",
-      "size": 772
+      "sha256": "ff6940f8e2fbfb76b2fec6fdfd22fab0e663b85880152435d2fc18593d4e225f",
+      "size": 1485
+    },
+    "s2hkp.json": {
+      "sha256": "6b41eb4d37136dea91427863abc0a07ffd62bfd0dbd7fe84be270b1e381399c4",
+      "size": 1588
     },
     "s2t.json": {
-      "sha256": "4868a5906f96026a99c5a73992411e70b703805db1ff03aa0c8d2552b3658bff",
-      "size": 493
+      "sha256": "5b75ad0245c676e51cba1057f49ea40ce6896ecd4f663a6350e2ffda771e88ff",
+      "size": 1165
     },
     "s2tw.json": {
-      "sha256": "d998f4a8a54b19e372b1f7c34fa4334d5e89b79d6cf4801060701e19878790a0",
-      "size": 770
+      "sha256": "8a3b25dbe16cf0fbee04bea0e5f5b59fc1e6e1f4677fe18ffb4070d83afc503e",
+      "size": 1483
     },
     "s2twp.json": {
-      "sha256": "5b4f920173def5208478e5456c11b880f4b24c11ae72a4048b1748f485b4e626",
-      "size": 884
+      "sha256": "6592f548ce0970001b9aa9b787fe7ec92d4ff7ac9279327055003106df71ec1d",
+      "size": 1593
     },
     "t2hk.json": {
-      "sha256": "11c8b162d2638e0c19623b98905f49a84bc888aac59b95157ae8a9cfa1de7f3d",
-      "size": 686
+      "sha256": "2182f050efadd2c024ffb82c1dc33d7a8a12d42b9b4603692bcd3a4b639e6cf5",
+      "size": 903
     },
     "t2jp.json": {
-      "sha256": "e4ced2b6ce82073a9067bab53cc472eb3acae5820d5bdbda08c83f9a44830e09",
-      "size": 334
+      "sha256": "fa1f43a51b69c716a7e5ebe7caa627224524cea4365317694420cd8190f111ed",
+      "size": 354
     },
     "t2s.json": {
-      "sha256": "459c2fdff946b6376dc1d9284d8363b22f10ce51a0bdf8eb299fe8ba4de2af82",
-      "size": 625
+      "sha256": "82e36836789d77269bd25f0cb67a90e157ee3d0386498bb8ae6ba169c0ab39cc",
+      "size": 803
     },
     "t2tw.json": {
-      "sha256": "333a7231729501026db45196718c0fe271bf61588a4540c9a07500ba529376d2",
-      "size": 684
+      "sha256": "c35d6fc6d6410241b16f225b2143288e683529bf4ebb0024d29e9a1eedfc7485",
+      "size": 901
     },
     "tw2s.json": {
-      "sha256": "9006caf98f6d54e7456bf0bf00863d3963dac4a95e758fb4807a4632d30885e1",
-      "size": 908
+      "sha256": "0da1da47eb113aa4e396feac8bf215ee678445947640a6a003dc0a799611897c",
+      "size": 1127
     },
     "tw2sp.json": {
-      "sha256": "1f8f0b2bb48418b0d21d27118568845b09ff5b8ca33c3175ef64874f67380e62",
-      "size": 1025
+      "sha256": "0fbf3fdd6794d3ad1db5940ad78ace10cb702fe79b359458d6af7305ebe88f68",
+      "size": 1244
     },
     "tw2t.json": {
-      "sha256": "26a8a2e946453dc62f2502ac27b5b482751e37196ed62ea3dd90fd5925d47254",
-      "size": 535
+      "sha256": "641aa8550f4fa360ec974ee0e3e9b8a3b70bbc895d83e5dea656dc8faf504231",
+      "size": 713
     }
   },
   "hash_algorithm": "sha256",
   "manifest_version": 1,
-  "source_dirty": false,
+  "source_dirty": true,
   "source_url": "https://github.com/BYVoid/OpenCC"
 }

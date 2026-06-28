@@ -1,22 +1,36 @@
 {
   "name": "Traditional Chinese (Hong Kong variant) to Traditional Chinese (OpenCC Standard)",
+  "normalization": [
+    {
+      "dict": {
+        "type": "text",
+        "file": "CJK_Compatibility_Ideographs.txt"
+      }
+    }
+  ],
   "segmentation": {
     "type": "mmseg",
     "dict": {
-      "type": "ocd2",
-      "file": "HKVariantsRevPhrases.ocd2"
+      "type": "text",
+      "file": "HKVariantsRevPhrases.txt"
     }
   },
-  "conversion_chain": [{
-    "dict": {
-      "type": "group",
-      "dicts": [{
-        "type": "ocd2",
-        "file": "HKVariantsRevPhrases.ocd2"
-      }, {
-        "type": "ocd2",
-        "file": "HKVariantsRev.ocd2"
-      }] 
+  "conversion_chain": [
+    {
+      "dict": {
+        "type": "group",
+        "match_policy": "short_circuit",
+        "dicts": [
+          {
+            "type": "text",
+            "file": "HKVariantsRevPhrases.txt"
+          },
+          {
+            "type": "text",
+            "file": "HKVariantsRev.txt"
+          }
+        ]
+      }
     }
-  }]
+  ]
 }

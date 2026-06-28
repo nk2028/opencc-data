@@ -1,40 +1,61 @@
 {
   "name": "Traditional Chinese (Taiwan Standard) to Simplified Chinese (Mainland China Phrases)",
+  "normalization": [
+    {
+      "dict": {
+        "type": "text",
+        "file": "CJK_Compatibility_Ideographs.txt"
+      }
+    }
+  ],
   "segmentation": {
     "type": "mmseg",
     "dict": {
-      "type": "ocd2",
-      "file": "TSPhrases.ocd2"
+      "type": "text",
+      "file": "TSPhrases.txt"
     }
   },
-  "conversion_chain": [{
-    "dict": {
-      "type": "group",
-      "dicts": [{
-        "type": "ocd2",
-        "file": "TWPhrasesRev.ocd2"
-      }, {
-        "type": "ocd2",
-        "file": "TWVariantsRevPhrases.ocd2"
-      }, {
-        "type": "ocd2",
-        "file": "TWVariantsRev.ocd2"
-      }] 
+  "conversion_chain": [
+    {
+      "dict": {
+        "type": "group",
+        "match_policy": "short_circuit",
+        "dicts": [
+          {
+            "type": "text",
+            "file": "TWPhrasesRev.txt"
+          },
+          {
+            "type": "text",
+            "file": "TWVariantsRevPhrases.txt"
+          },
+          {
+            "type": "text",
+            "file": "TWVariantsRev.txt"
+          }
+        ]
+      }
+    },
+    {
+      "dict": {
+        "type": "group",
+        "match_policy": "short_circuit",
+        "dicts": [
+          {
+            "type": "text",
+            "file": "TSPhrases.txt"
+          },
+          {
+            "type": "text",
+            "file": "TSCharactersExt.txt",
+            "may_output_tofu": true
+          },
+          {
+            "type": "text",
+            "file": "TSCharacters.txt"
+          }
+        ]
+      }
     }
-  }, {
-    "dict": {
-      "type": "group",
-      "dicts": [{
-        "type": "ocd2",
-        "file": "TSPhrases.ocd2"
-      }, {
-        "type": "ocd2",
-        "file": "TSCharactersExt.ocd2",
-        "may_output_tofu": true
-      }, {
-        "type": "ocd2",
-        "file": "TSCharacters.ocd2"
-      }]
-    }
-  }]
+  ]
 }
