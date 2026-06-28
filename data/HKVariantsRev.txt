@@ -1,3 +1,8 @@
+# Open Chinese Convert (OpenCC) Dictionary
+# File: HKVariantsRev.txt (Generated from: HKVariants.txt)
+# License: Apache-2.0 (see LICENSE)
+# Source: https://github.com/BYVoid/OpenCC
+
 偽	僞
 兑	兌
 卧	臥
@@ -47,10 +52,14 @@
 粽	糉
 糉	糉
 糭	糉
+綫	線
+線	線
 緼	縕
+纔	纔
 缽	鉢
 脱	脫
 腽	膃
+菸	菸
 葱	蔥
 蒀	蒕
 蒍	蔿
@@ -58,6 +67,7 @@
 蜕	蛻
 衞	衛
 衹	只
+覈	覈
 説	說
 踴	踊
 輼	轀

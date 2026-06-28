@@ -1,5 +1,5 @@
 {
-  "name": "Traditional Chinese (Taiwan Standard) to Simplified Chinese",
+  "name": "Traditional Chinese (Hong Kong variant) to Simplified Chinese (with phrases)",
   "normalization": [
     {
       "dict": {
@@ -23,11 +23,15 @@
         "dicts": [
           {
             "type": "text",
-            "file": "TWVariantsRevPhrases.txt"
+            "file": "HKPhrasesRev.txt"
           },
           {
             "type": "text",
-            "file": "TWVariantsRev.txt"
+            "file": "HKVariantsRevPhrases.txt"
+          },
+          {
+            "type": "text",
+            "file": "HKVariantsRev.txt"
           }
         ]
       }

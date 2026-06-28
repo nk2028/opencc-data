@@ -1,3 +1,8 @@
+# Open Chinese Convert (OpenCC) Dictionary
+# File: TWVariantsRev.txt (Generated from: TWVariants.txt)
+# License: Apache-2.0 (see LICENSE)
+# Source: https://github.com/BYVoid/OpenCC
+
 么	幺
 偽	僞
 參	蔘
