@@ -16,6 +16,22 @@ def read_package_json() -> dict:
     return json.loads((ROOT / "package.json").read_text(encoding="utf-8"))
 
 
+def read_long_description() -> str:
+    def clean_language_link(text: str) -> str:
+        lines = [
+            line
+            for line in text.splitlines()
+            if line not in {"[繁體中文](README.zh-TW.md)", "[English](README.md)"}
+        ]
+        return "\n".join(lines).strip()
+
+    english = clean_language_link((ROOT / "README.md").read_text(encoding="utf-8"))
+    traditional_chinese = clean_language_link(
+        (ROOT / "README.zh-TW.md").read_text(encoding="utf-8")
+    )
+    return f"{english}\n\n---\n\n{traditional_chinese}\n"
+
+
 def python_version(npm_version: str) -> str:
     if re.fullmatch(r"\d+\.\d+\.\d+", npm_version):
         return npm_version
@@ -55,7 +71,7 @@ setup(
     name="opencc-data",
     version=python_version(package_json["version"]),
     description="OpenCC dictionary data, configs, and test data",
-    long_description=(ROOT / "README.md").read_text(encoding="utf-8"),
+    long_description=read_long_description(),
     long_description_content_type="text/markdown",
     author="The Ngiox Khyen 2028 Project",
     license="Apache-2.0",
