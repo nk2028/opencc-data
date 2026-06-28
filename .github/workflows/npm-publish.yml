@@ -3,6 +3,12 @@ name: Node.js Package
 on:
   release:
     types: [created]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'npm dist-tag to publish with. Leave empty to use next for prerelease versions and latest otherwise.'
+        required: false
+        default: ''
 
 jobs:
   publish-npm:
@@ -16,4 +22,16 @@ jobs:
       with:
         node-version: 24
         registry-url: https://registry.npmjs.org/
-    - run: npm publish
+    - name: Resolve npm dist-tag
+      id: dist-tag
+      env:
+        REQUESTED_TAG: ${{ github.event.inputs.tag || '' }}
+      run: |
+        if [ -n "$REQUESTED_TAG" ]; then
+          echo "value=$REQUESTED_TAG" >> "$GITHUB_OUTPUT"
+        elif node -e "process.exit(require('./package.json').version.includes('-') ? 0 : 1)"; then
+          echo "value=next" >> "$GITHUB_OUTPUT"
+        else
+          echo "value=latest" >> "$GITHUB_OUTPUT"
+        fi
+    - run: npm publish --tag "${{ steps.dist-tag.outputs.value }}"
