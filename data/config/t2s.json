@@ -8,13 +8,6 @@
       }
     }
   ],
-  "segmentation": {
-    "type": "mmseg",
-    "dict": {
-      "type": "text",
-      "file": "TSPhrases.txt"
-    }
-  },
   "conversion_chain": [
     {
       "dict": {

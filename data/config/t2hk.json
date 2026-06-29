@@ -8,23 +8,6 @@
       }
     }
   ],
-  "segmentation": {
-    "type": "mmseg",
-    "dict": {
-      "type": "group",
-      "match_policy": "short_circuit",
-      "dicts": [
-        {
-          "type": "text",
-          "file": "HKVariantsPhrases.txt"
-        },
-        {
-          "type": "text",
-          "file": "HKVariants.txt"
-        }
-      ]
-    }
-  },
   "conversion_chain": [
     {
       "dict": {

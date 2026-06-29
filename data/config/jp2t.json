@@ -8,13 +8,6 @@
       }
     }
   ],
-  "segmentation": {
-    "type": "mmseg",
-    "dict": {
-      "type": "text",
-      "file": "JPShinjitaiPhrases.txt"
-    }
-  },
   "conversion_chain": [
     {
       "dict": {

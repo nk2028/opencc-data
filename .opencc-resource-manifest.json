@@ -1,5 +1,5 @@
 {
-  "build_time_utc": "2026-06-28T03:45:06+00:00",
+  "build_time_utc": "2026-06-29T04:26:05+00:00",
   "commit_id": "unknown",
   "entries": {
     "CJK_Compatibility_Ideographs.txt": {
@@ -99,12 +99,12 @@
       "size": 1236
     },
     "hk2t.json": {
-      "sha256": "03b21104ceb227545ab8598c30f055f6c876836b7d0394f7e1aafe8db7bec037",
-      "size": 715
+      "sha256": "338309bb99d8ce5068c9df9d8825945c52cf99e06c13753d097b0babab0fe254",
+      "size": 586
     },
     "jp2t.json": {
-      "sha256": "8bf63e5286566410091c9b5d78b5a13618ef93b7bec359614b3cabea52775ab1",
-      "size": 703
+      "sha256": "5f0e61236d30e7323e2448c65b6c493480b06a4428ceec7643b2bdb265b4f0c7",
+      "size": 576
     },
     "s2hk.json": {
       "sha256": "ff6940f8e2fbfb76b2fec6fdfd22fab0e663b85880152435d2fc18593d4e225f",
@@ -115,8 +115,8 @@
       "size": 1588
     },
     "s2t.json": {
-      "sha256": "5b75ad0245c676e51cba1057f49ea40ce6896ecd4f663a6350e2ffda771e88ff",
-      "size": 1165
+      "sha256": "7f7eaa0e4382caca14dc2e8e7532a7b0a949453ed907975190b358598bb2f7ad",
+      "size": 830
     },
     "s2tw.json": {
       "sha256": "8a3b25dbe16cf0fbee04bea0e5f5b59fc1e6e1f4677fe18ffb4070d83afc503e",
@@ -127,20 +127,20 @@
       "size": 1593
     },
     "t2hk.json": {
-      "sha256": "2182f050efadd2c024ffb82c1dc33d7a8a12d42b9b4603692bcd3a4b639e6cf5",
-      "size": 903
+      "sha256": "31e9d619521ea42847af2d4508a9264198ef3a4e7cec49b297f744e455bfe947",
+      "size": 580
     },
     "t2jp.json": {
       "sha256": "fa1f43a51b69c716a7e5ebe7caa627224524cea4365317694420cd8190f111ed",
       "size": 354
     },
     "t2s.json": {
-      "sha256": "82e36836789d77269bd25f0cb67a90e157ee3d0386498bb8ae6ba169c0ab39cc",
-      "size": 803
+      "sha256": "96ee603fd8030348a466ba0049771f6c69e15684c14653068c96f4356f45950c",
+      "size": 685
     },
     "t2tw.json": {
-      "sha256": "c35d6fc6d6410241b16f225b2143288e683529bf4ebb0024d29e9a1eedfc7485",
-      "size": 901
+      "sha256": "dc89642867f714976510a4912ee6dcfeffd80a244518461ade3aa8a1debf0ec5",
+      "size": 578
     },
     "tw2s.json": {
       "sha256": "0da1da47eb113aa4e396feac8bf215ee678445947640a6a003dc0a799611897c",
@@ -151,8 +151,8 @@
       "size": 1244
     },
     "tw2t.json": {
-      "sha256": "641aa8550f4fa360ec974ee0e3e9b8a3b70bbc895d83e5dea656dc8faf504231",
-      "size": 713
+      "sha256": "40ebe4f28c475ed38e094135dd9bafb3cae8450692f1bf80d402072d3b5d598b",
+      "size": 584
     }
   },
   "hash_algorithm": "sha256",

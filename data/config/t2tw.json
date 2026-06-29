@@ -8,23 +8,6 @@
       }
     }
   ],
-  "segmentation": {
-    "type": "mmseg",
-    "dict": {
-      "type": "group",
-      "match_policy": "short_circuit",
-      "dicts": [
-        {
-          "type": "text",
-          "file": "TWVariantsPhrases.txt"
-        },
-        {
-          "type": "text",
-          "file": "TWVariants.txt"
-        }
-      ]
-    }
-  },
   "conversion_chain": [
     {
       "dict": {
