@@ -47,7 +47,7 @@ def python_version(npm_version: str) -> str:
     raise ValueError(
         f"{npm_version!r} is not a supported PyPI version. "
         "Use a release version like 1.3.2 or a next prerelease like "
-        "1.3.2-next.20260628."
+        "1.4.0-next.20260628."
     )
 
 

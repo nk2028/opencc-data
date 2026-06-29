@@ -6,7 +6,7 @@ A collection of dictionary data, configs, and test data for Simplified and Tradi
 
 ## Compatibility
 
-This package is intended for [opencc-js](https://github.com/nk2028/opencc-js) and other OpenCC-compatible implementations that consume OpenCC dictionary and config data.
+This package is intended for [opencc-js](https://github.com/nk2028/opencc-js), [opencc-py](https://pypi.org/project/opencc-py/), and other OpenCC-compatible implementations that consume OpenCC dictionary and config data.
 
 - **Strict Version Matching**: Compatibility is only guaranteed when the version of `opencc-data` strictly matches the version of the consumer package.
 - **Breaking Changes**: We do not guarantee compatibility between different versions of `opencc-data`. Structure or file names may change to align with upstream OpenCC updates.
@@ -21,7 +21,7 @@ Use the config files shipped in `data/config/` as the source of truth for dictio
 
 Dictionary text files are shipped in `data/`. Config files reference those dictionaries by file name and preserve OpenCC's stage/group ordering semantics.
 
-Python consumers can install the `opencc-data` package from PyPI and use the `opencc_data` module to locate packaged resources:
+Python consumers can install the [`opencc-data`](https://pypi.org/project/opencc-data/) package from PyPI and use the `opencc_data` module to locate packaged resources:
 
 ```python
 import opencc_data
@@ -31,4 +31,4 @@ dictionary_file = opencc_data.data_path("STCharacters.txt")
 testcases_file = opencc_data.test_data_path("testcases.json")
 ```
 
-Release versions match across npm and PyPI, such as `1.3.2`. For `next` prereleases, PyPI uses the PEP 440 equivalent of the npm version: `1.3.2-next.20260628` is published to PyPI as `1.3.2.dev20260628`.
+Release versions match across npm and PyPI, such as `1.3.2`. For `next` prereleases, PyPI uses the PEP 440 equivalent of the npm version: for example, `1.4.0-next.20260628` is published to PyPI as `1.4.0.dev20260628`.

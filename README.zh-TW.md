@@ -6,7 +6,7 @@
 
 ## 相容性
 
-本套件適用於 [opencc-js](https://github.com/nk2028/opencc-js)，也可供其他相容 OpenCC 詞典與設定檔格式的實作使用。
+本套件適用於 [opencc-js](https://github.com/nk2028/opencc-js)、[opencc-py](https://pypi.org/project/opencc-py/)，也可供其他相容 OpenCC 詞典與設定檔格式的實作使用。
 
 - **嚴格版本匹配**：只有在 `opencc-data` 與使用端套件版本完全一致時，才保證相容性。
 - **破壞性變更**：不同版本的 `opencc-data` 之間不保證相容。資料結構或檔名可能會隨上游 OpenCC 更新而調整。
@@ -21,7 +21,7 @@
 
 詞典文字檔位於 `data/`。設定檔會以檔名引用這些詞典，並保留 OpenCC 的 stage/group 排序語意。
 
-Python 使用者可以從 PyPI 安裝 `opencc-data`，並透過 `opencc_data` module 定位套件內資源：
+Python 使用者可以從 PyPI 安裝 [`opencc-data`](https://pypi.org/project/opencc-data/)，並透過 `opencc_data` module 定位套件內資源：
 
 ```python
 import opencc_data
@@ -31,4 +31,4 @@ dictionary_file = opencc_data.data_path("STCharacters.txt")
 testcases_file = opencc_data.test_data_path("testcases.json")
 ```
 
-正式版在 npm 與 PyPI 會使用相同版本號，例如 `1.3.2`。`next` prerelease 則會在 PyPI 使用對應的 PEP 440 版本：`1.3.2-next.20260628` 會以 `1.3.2.dev20260628` 發佈到 PyPI。
+正式版在 npm 與 PyPI 會使用相同版本號，例如 `1.3.2`。`next` prerelease 則會在 PyPI 使用對應的 PEP 440 版本：例如 `1.4.0-next.20260628` 會以 `1.4.0.dev20260628` 發佈到 PyPI。
