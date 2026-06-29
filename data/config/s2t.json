@@ -8,23 +8,6 @@
       }
     }
   ],
-  "segmentation": {
-    "type": "mmseg",
-    "dict": {
-      "type": "group",
-      "match_policy": "union",
-      "dicts": [
-        {
-          "type": "text",
-          "file": "STPhrases.txt"
-        },
-        {
-          "type": "text",
-          "file": "STPhrases_GeneratedFromRegionalPhrases.txt"
-        }
-      ]
-    }
-  },
   "conversion_chain": [
     {
       "dict": {
