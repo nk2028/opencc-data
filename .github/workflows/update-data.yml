@@ -12,7 +12,7 @@ on:
         required: false
         default: 'master'
       version:
-        description: 'New version number for package.json'
+        description: 'New version number for package.json. Leave empty to use package.json version with -next.YYYYMMDD.'
         required: false
         default: ''
 
@@ -60,7 +60,7 @@ jobs:
 
       - name: Build OpenCC resource zip
         working-directory: upstream-opencc
-        run: bazel build //data:opencc_resources_zip
+        run: OPENCC_WORKSPACE="$PWD" bazel build --workspace_status_command=../scripts/opencc-workspace-status.sh //data:opencc_resources_zip
 
       - name: Sync upstream data files
         run: |
@@ -116,13 +116,14 @@ jobs:
         if: steps.diff.outputs.changed == 'true'
         id: version
         run: |
+          CURRENT_VERSION="$(node -p 'require("./package.json").version')"
           if [ -n "$PACKAGE_VERSION" ]; then
             NEXT_VERSION="$PACKAGE_VERSION"
           else
-            BASE_VERSION="$(node -p 'require("./package.json").version.replace(/-.*/, "")')"
-            NEXT_VERSION="${BASE_VERSION}-next.$(date -u +%Y%m%d)"
+            BASE_VERSION="${CURRENT_VERSION%%-*}"
+            TODAY_UTC="$(date -u +%Y%m%d)"
+            NEXT_VERSION="${BASE_VERSION}-next.${TODAY_UTC}"
           fi
-          CURRENT_VERSION="$(node -p 'require("./package.json").version')"
           if [ "$CURRENT_VERSION" != "$NEXT_VERSION" ]; then
             npm version "$NEXT_VERSION" --no-git-tag-version
           fi
