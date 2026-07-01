@@ -1,5 +1,5 @@
 {
-  "build_time_utc": "2026-06-29T04:26:05+00:00",
+  "build_time_utc": "2026-07-01T05:32:08+00:00",
   "commit_id": "unknown",
   "entries": {
     "CJK_Compatibility_Ideographs.txt": {
@@ -27,8 +27,8 @@
       "size": 604
     },
     "HKVariantsRevPhrases.txt": {
-      "sha256": "7e3270c4a878464a84ad686276ee70282e45fff691f97644c73fa1796372175d",
-      "size": 5981
+      "sha256": "4797755d9a1e1e175e9de9ab27a679f2c7bae2accaa9c01289d97bf0929d086f",
+      "size": 6041
     },
     "JPShinjitaiCharacters.txt": {
       "sha256": "11d5e37fcfaddf108ce7b95844cb60e41b27a70fbe89150dbec1661bff990968",
@@ -47,24 +47,24 @@
       "size": 34771
     },
     "STPhrases.txt": {
-      "sha256": "0008c5dbf93773e5cbd4a65a286cff7aca9c51e03d657748b2d618b11ae3fbf5",
-      "size": 1004331
+      "sha256": "faccb0ee0967ad68961402dd3f834caa5fec570450a29cc9b9ab212478a735ad",
+      "size": 1004432
     },
     "STPhrases_GeneratedFromRegionalPhrases.txt": {
       "sha256": "eacead794ffe80db90aaa28f787d1a4f47961552c71dbfb10cc3ea822feedaa0",
       "size": 13329
     },
     "TSCharacters.txt": {
-      "sha256": "c611c3556dff86133667a61096e8a964f245fad31a4c973df1f9b31c5cc06f89",
-      "size": 38922
+      "sha256": "20b579a04c0941d281dac781aaca5050d597048c6ceac502622bea20dca8f24e",
+      "size": 38953
     },
     "TSCharactersExt.txt": {
-      "sha256": "9595aa83bce940fce943b5f6eafff6ad08043dbcd3609f19e53a500633fe87da",
-      "size": 8335
+      "sha256": "239a67aae2bb6b4999f65e1df50ee67794ea5b63d269a8e6cb9a99efe0eb749e",
+      "size": 8345
     },
     "TSPhrases.txt": {
-      "sha256": "7b3b19d32bfd7e7ea4dc4fdb4af1bb309edad22924d5ef5eef97746c23a1d1ec",
-      "size": 8361
+      "sha256": "049842ea037186651d3f4b9eb1f29b4a5c3d3f89963fc77a23abcaab3d9f19bb",
+      "size": 8450
     },
     "TWPhrases.txt": {
       "sha256": "fc3cc2d187cff8dcf3b0626766dcf9cfe3916290b9066d9d4f6d84f24237f7a5",
