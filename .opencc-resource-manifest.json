@@ -1,6 +1,6 @@
 {
-  "build_time_utc": "2026-07-01T05:32:08+00:00",
-  "commit_id": "unknown",
+  "build_time_utc": "2026-07-01T20:22:40+00:00",
+  "commit_id": "84dceb26a0f74c64efe02d34eb33e84a4aec2175",
   "entries": {
     "CJK_Compatibility_Ideographs.txt": {
       "sha256": "5ee4a07d93aafee09cd4417db067dbd42eac53ad4c6666d546ea58218b68f9ba",
@@ -43,12 +43,12 @@
       "size": 3574
     },
     "STCharacters.txt": {
-      "sha256": "b2efdcb0fbc05e5538aac56bbe5e189b5e2f38a3eaee866d211f0d2d34df0a9b",
-      "size": 34771
+      "sha256": "4c9cf97caba1dcbc0253cda7c5a7e19460a57e7f1511b4b5bfbf6f251776c38b",
+      "size": 34783
     },
     "STPhrases.txt": {
-      "sha256": "faccb0ee0967ad68961402dd3f834caa5fec570450a29cc9b9ab212478a735ad",
-      "size": 1004432
+      "sha256": "4481209741847847f3784eb27cc0d5e5cb254b65f30b47b7d00cbf784a89cc6d",
+      "size": 1004346
     },
     "STPhrases_GeneratedFromRegionalPhrases.txt": {
       "sha256": "eacead794ffe80db90aaa28f787d1a4f47961552c71dbfb10cc3ea822feedaa0",
@@ -157,6 +157,6 @@
   },
   "hash_algorithm": "sha256",
   "manifest_version": 1,
-  "source_dirty": true,
+  "source_dirty": false,
   "source_url": "https://github.com/BYVoid/OpenCC"
 }
