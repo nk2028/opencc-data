@@ -1,4 +1,4 @@
-# opencc-data [![](https://badge.fury.io/js/opencc-data.svg)](https://www.npmjs.com/package/opencc-data) [![PyPI version](https://badge.fury.io/py/opencc-data.svg)](https://pypi.org/project/opencc-data/) [![JSDelivr badge](https://data.jsdelivr.com/v1/package/npm/opencc-data/badge)](https://www.jsdelivr.com/package/npm/opencc-data)
+# opencc-data [![](https://badge.fury.io/js/opencc-data.svg)](https://www.npmjs.com/package/opencc-data?activeTab=versions) [![PyPI version](https://badge.fury.io/py/opencc-data.svg)](https://pypi.org/project/opencc-data/#history) [![JSDelivr badge](https://data.jsdelivr.com/v1/package/npm/opencc-data/badge)](https://www.jsdelivr.com/package/npm/opencc-data)
 
 [English](README.md)
 
