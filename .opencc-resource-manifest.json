@@ -1,18 +1,18 @@
 {
-  "build_time_utc": "2026-07-01T20:22:40+00:00",
-  "commit_id": "84dceb26a0f74c64efe02d34eb33e84a4aec2175",
+  "build_time_utc": "2026-07-12T14:48:39+00:00",
+  "commit_id": "81223ed87ae53283ef518e2deac34b7971f8a39e",
   "entries": {
     "CJK_Compatibility_Ideographs.txt": {
       "sha256": "5ee4a07d93aafee09cd4417db067dbd42eac53ad4c6666d546ea58218b68f9ba",
       "size": 8670
     },
     "HKPhrases.txt": {
-      "sha256": "601ae30a8cf326134576ec8aee25db36ecc20c0280c80b698ecf439b9016579d",
-      "size": 999
+      "sha256": "45b69c27690aa7446e833201bbaa02390554274c7466f796302c4a9e21e7754d",
+      "size": 1019
     },
     "HKPhrasesRev.txt": {
-      "sha256": "09c823f4e75201c833c13fff78275e899ff7b29df94732123bf6dc3aa35ebf8b",
-      "size": 948
+      "sha256": "77b617ec52a1a17c70521f765200568636f1a1c69aaa57011da4a53f0e77f4a5",
+      "size": 968
     },
     "HKVariants.txt": {
       "sha256": "27da0eab379a2e34797c364e47219973235468a8ad2813c3cc4595764400cf12",
@@ -31,40 +31,40 @@
       "size": 6041
     },
     "JPShinjitaiCharacters.txt": {
-      "sha256": "11d5e37fcfaddf108ce7b95844cb60e41b27a70fbe89150dbec1661bff990968",
-      "size": 3408
+      "sha256": "722e4d0b87606c537ea2094ac3c5ce42f7f65e0b31bf85d8da6126a2e28852ee",
+      "size": 3540
     },
     "JPShinjitaiCharactersRev.txt": {
-      "sha256": "f6927eacc3a04ae0e2ecba8da33886d39a262571f81fe387b7774da4e7f70c3c",
-      "size": 3680
+      "sha256": "4d257f9dfdea31a0062b2bdb0c6214062456ea1e57a601cc67c796e244f917ca",
+      "size": 3832
     },
     "JPShinjitaiPhrases.txt": {
       "sha256": "7c5cb687a0764e083f967f155c7b125d40226222b3d443fa1793e3fbc4a9a716",
       "size": 3574
     },
     "STCharacters.txt": {
-      "sha256": "4c9cf97caba1dcbc0253cda7c5a7e19460a57e7f1511b4b5bfbf6f251776c38b",
+      "sha256": "7fcc8430242c0967f62e663f66d13511f945595d900fd9a60156885c3aba6a93",
       "size": 34783
     },
     "STPhrases.txt": {
-      "sha256": "4481209741847847f3784eb27cc0d5e5cb254b65f30b47b7d00cbf784a89cc6d",
-      "size": 1004346
+      "sha256": "82b1df0e537c47d9d634d0e831c09d2e4e0b245937dde51c3f313336ba336d28",
+      "size": 1004301
     },
     "STPhrases_GeneratedFromRegionalPhrases.txt": {
-      "sha256": "eacead794ffe80db90aaa28f787d1a4f47961552c71dbfb10cc3ea822feedaa0",
-      "size": 13329
+      "sha256": "8821f40db7e9a73d57db5b140c8c9dcfb83b847aed17e2c706a328de27fae100",
+      "size": 13349
     },
     "TSCharacters.txt": {
-      "sha256": "20b579a04c0941d281dac781aaca5050d597048c6ceac502622bea20dca8f24e",
-      "size": 38953
+      "sha256": "d8c619b5e61c3f3c0200be947cdb4e4e361a5dec01e0d3f805d601b0a8bde230",
+      "size": 38961
     },
     "TSCharactersExt.txt": {
       "sha256": "239a67aae2bb6b4999f65e1df50ee67794ea5b63d269a8e6cb9a99efe0eb749e",
       "size": 8345
     },
     "TSPhrases.txt": {
-      "sha256": "049842ea037186651d3f4b9eb1f29b4a5c3d3f89963fc77a23abcaab3d9f19bb",
-      "size": 8450
+      "sha256": "108aad5ffd6721f73831f73845cef969792e20c70ae5cf29f6c5db31fb1a6dc1",
+      "size": 8500
     },
     "TWPhrases.txt": {
       "sha256": "fc3cc2d187cff8dcf3b0626766dcf9cfe3916290b9066d9d4f6d84f24237f7a5",
