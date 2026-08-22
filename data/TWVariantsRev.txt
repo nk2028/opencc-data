@@ -3,7 +3,7 @@
 # License: Apache-2.0 (see LICENSE)
 # Source: https://github.com/BYVoid/OpenCC
 
-么	幺
+么	幺 麼
 偽	僞
 參	蔘
 吃	喫
@@ -15,6 +15,8 @@
 床	牀
 才	纔
 核	覈
+梁	梁 樑
+樑	樑
 汙	污
 洩	泄
 溈	潙
@@ -41,3 +43,4 @@
 顎	齶
 鯰	鮎
 麵	麪
+麼	麼

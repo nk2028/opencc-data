@@ -1,18 +1,18 @@
 {
-  "build_time_utc": "2026-07-12T14:48:39+00:00",
-  "commit_id": "81223ed87ae53283ef518e2deac34b7971f8a39e",
+  "build_time_utc": "2026-08-22T18:48:17+00:00",
+  "commit_id": "025f371dc76b598d77384fbdab90c937471844d8",
   "entries": {
     "CJK_Compatibility_Ideographs.txt": {
       "sha256": "5ee4a07d93aafee09cd4417db067dbd42eac53ad4c6666d546ea58218b68f9ba",
       "size": 8670
     },
     "HKPhrases.txt": {
-      "sha256": "45b69c27690aa7446e833201bbaa02390554274c7466f796302c4a9e21e7754d",
-      "size": 1019
+      "sha256": "7ef3d7a5ab72118e48057d820b77e8678358cf5ca4031c6117ac40236e169ca7",
+      "size": 2654
     },
     "HKPhrasesRev.txt": {
-      "sha256": "77b617ec52a1a17c70521f765200568636f1a1c69aaa57011da4a53f0e77f4a5",
-      "size": 968
+      "sha256": "e5c6cad0c4c22aed9d20ee4b2657dd9567ddaaaf9a76446ba0cd4fd7e5916a93",
+      "size": 2603
     },
     "HKVariants.txt": {
       "sha256": "27da0eab379a2e34797c364e47219973235468a8ad2813c3cc4595764400cf12",
@@ -43,16 +43,16 @@
       "size": 3574
     },
     "STCharacters.txt": {
-      "sha256": "7fcc8430242c0967f62e663f66d13511f945595d900fd9a60156885c3aba6a93",
-      "size": 34783
+      "sha256": "af83b53fd6526eb15507686ee71a8e275b3bd3d622e91a9ba8f5148d476243b0",
+      "size": 34787
     },
     "STPhrases.txt": {
-      "sha256": "82b1df0e537c47d9d634d0e831c09d2e4e0b245937dde51c3f313336ba336d28",
-      "size": 1004301
+      "sha256": "e077f8b7100d4cbdcb1de1441330f6f4859c31255815b453df7dc7f25773517f",
+      "size": 1006285
     },
     "STPhrases_GeneratedFromRegionalPhrases.txt": {
-      "sha256": "8821f40db7e9a73d57db5b140c8c9dcfb83b847aed17e2c706a328de27fae100",
-      "size": 13349
+      "sha256": "23255132b8fbce4425191e23ca8dba9c56a6490d9262cd62e19185d4c66f5b74",
+      "size": 15301
     },
     "TSCharacters.txt": {
       "sha256": "d8c619b5e61c3f3c0200be947cdb4e4e361a5dec01e0d3f805d601b0a8bde230",
@@ -63,32 +63,32 @@
       "size": 8345
     },
     "TSPhrases.txt": {
-      "sha256": "108aad5ffd6721f73831f73845cef969792e20c70ae5cf29f6c5db31fb1a6dc1",
-      "size": 8500
+      "sha256": "85e4bb2ad661537fdd6c7e40cbaccb2eaa6575f19aeb431d10768c80a4bd8c01",
+      "size": 8527
     },
     "TWPhrases.txt": {
-      "sha256": "fc3cc2d187cff8dcf3b0626766dcf9cfe3916290b9066d9d4f6d84f24237f7a5",
-      "size": 17513
+      "sha256": "d08ca010ba15a798e696c536b4805098209335c939489fe571b33a6d59e22db5",
+      "size": 19181
     },
     "TWPhrasesRev.txt": {
-      "sha256": "25d25172fd8be34c60eee76e161275ad138f9ee39ddd213088f114286474ad9e",
-      "size": 17342
+      "sha256": "806e4ae92a6d9fe54770aa3387f17648b79af2be30b0ac2d267521d2da56438d",
+      "size": 18981
     },
     "TWVariants.txt": {
-      "sha256": "18997da9cc9e66a54ad193d59274a414e2225606812ee747519a2e0e420361d7",
-      "size": 304
+      "sha256": "1c03c64bff4c66c5a3a6df49e83bfd4f9531a768ab4b0c7a25b5fb1510bf0cd6",
+      "size": 336
     },
     "TWVariantsPhrases.txt": {
-      "sha256": "3df0baae92d2b4d06c4e5a2d5357bb1b8493755b441fa183a0a6ee9995595a07",
-      "size": 104
+      "sha256": "34a8637506603b2790baab4c0197ff28896b5f0fa60e60cf65d6fa0003bd5329",
+      "size": 264
     },
     "TWVariantsRev.txt": {
-      "sha256": "bd2fbbdb7c7d481e245ce3952ccc2c11d20c8bd3ca466d0bf6b356818eeed7ff",
-      "size": 304
+      "sha256": "ab059484c60f0983a8c841cd1edb622db883bf7627a872c92e29f70ec9ecd2de",
+      "size": 336
     },
     "TWVariantsRevPhrases.txt": {
-      "sha256": "7b3ccf3949b4534e9116fe33ca8e8890099678f3790b5ad948b1fd9e1c0caf81",
-      "size": 20107
+      "sha256": "93a10ecd43c0efddd5eacb11174a30d8af19f74f4cb0569d6478db08623f1c2a",
+      "size": 22709
     },
     "hk2s.json": {
       "sha256": "940b478fed403ff2d0c3e98ce7fbf9a7623418ac18a0fabc3c113d2329ae5f59",
