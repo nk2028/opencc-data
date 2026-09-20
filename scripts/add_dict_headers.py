@@ -23,10 +23,27 @@ GENERATED_FROM = {
     "TWVariantsRevPhrases.txt": "TWVariantsPhrases.txt",
     "JPShinjitaiCharactersRev.txt": "JPShinjitaiCharacters.txt",
     "JPVariantsRev.txt": "JPVariants.txt",
+    "SealCharactersRev.txt": "SealCharacters.txt",
+    "SealVariantsRev.txt": "SealVariants.txt",
     "TSCharactersExt.txt": "TSCharacters.txt",
     "STPhrases_GeneratedFromRegionalPhrases.txt": "HKPhrases.txt, TWPhrases.txt",
     "STPhrases_WithGeneratedFromRegionalPhrases.txt": "STPhrases.txt, HKPhrases.txt, TWPhrases.txt",
 }
+
+
+def generated_from(filename):
+    source = GENERATED_FROM.get(filename)
+    if source:
+        return source
+
+    # Upstream's reverse_* genrules turn X.txt into XRev.txt, so new reversed
+    # dictionaries can be recognized without updating the map above.
+    if filename.endswith("Rev.txt"):
+        candidate = filename[: -len("Rev.txt")] + ".txt"
+        if os.path.exists(os.path.join("data", candidate)):
+            return candidate
+
+    return None
 
 
 def main():
@@ -45,7 +62,11 @@ def main():
         if content.startswith("# Open Chinese Convert (OpenCC) Dictionary"):
             continue
 
-        source = GENERATED_FROM.get(filename)
+        source = generated_from(filename)
+        if not source:
+            # Upstream source dictionaries all carry a native header, so a
+            # headerless file is a generated one this script does not know yet.
+            print(f"::warning file=scripts/add_dict_headers.py::Unknown generation source for {filename}; update GENERATED_FROM.")
         file_line = f"# File: {filename}" + (f" (Generated from: {source})" if source else "")
         header = "\n".join([
             "# Open Chinese Convert (OpenCC) Dictionary",
