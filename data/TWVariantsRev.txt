@@ -1,7 +1,7 @@
 # Open Chinese Convert (OpenCC) Dictionary
 # File: TWVariantsRev.txt (Generated from: TWVariants.txt)
 # License: Apache-2.0 (see LICENSE)
-# Source: https://github.com/BYVoid/OpenCC
+# Source: https://github.com/byvoid/OpenCC
 
 么	幺 麼
 偽	僞
@@ -28,7 +28,6 @@
 皂	皁
 眾	衆
 睪	睾
-秘	祕
 稜	棱
 簷	檐
 粽	糉

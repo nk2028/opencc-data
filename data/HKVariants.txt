@@ -1,7 +1,7 @@
 # Open Chinese Convert (OpenCC) Dictionary
 # File: HKVariants.txt
 # License: Apache-2.0 (see LICENSE)
-# Source: https://github.com/BYVoid/OpenCC
+# Source: https://github.com/byvoid/OpenCC
 
 僞	偽
 兌	兑

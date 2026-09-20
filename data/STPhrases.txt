@@ -1,7 +1,7 @@
 # Open Chinese Convert (OpenCC) Dictionary
 # File: STPhrases.txt
 # License: Apache-2.0 (see LICENSE)
-# Source: https://github.com/BYVoid/OpenCC
+# Source: https://github.com/byvoid/OpenCC
 
 㓦划	㓦劃
 一丝不挂	一絲不掛

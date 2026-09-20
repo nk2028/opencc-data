@@ -1,7 +1,7 @@
 # Open Chinese Convert (OpenCC) Dictionary
 # File: TWVariantsRevPhrases.txt (Generated from: TWVariantsPhrases.txt)
 # License: Apache-2.0 (see LICENSE)
-# Source: https://github.com/BYVoid/OpenCC
+# Source: https://github.com/byvoid/OpenCC
 
 一口吃個	一口喫個
 一口吃成	一口喫成

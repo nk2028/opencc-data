@@ -1,7 +1,7 @@
 # Open Chinese Convert (OpenCC) Dictionary
 # File: HKPhrases.txt
 # License: Apache-2.0 (see LICENSE)
-# Source: https://github.com/BYVoid/OpenCC
+# Source: https://github.com/byvoid/OpenCC
 
 丹尼·博伊爾	丹尼·波爾
 亞歷杭德羅·岡薩雷斯·伊納裏圖	艾力謝路·高沙里斯·依拿力圖

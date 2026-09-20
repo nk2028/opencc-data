@@ -1,0 +1,25 @@
+{
+  "name": "Traditional Chinese Characters to Small Seal Script",
+  "normalization": [
+    {
+      "dict": {
+        "type": "text",
+        "file": "CJK_Compatibility_Ideographs.txt"
+      }
+    }
+  ],
+  "conversion_chain": [
+    {
+      "dict": {
+        "type": "text",
+        "file": "SealVariants.txt"
+      }
+    },
+    {
+      "dict": {
+        "type": "text",
+        "file": "SealCharactersRev.txt"
+      }
+    }
+  ]
+}

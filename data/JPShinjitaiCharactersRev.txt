@@ -1,7 +1,7 @@
 # Open Chinese Convert (OpenCC) Dictionary
 # File: JPShinjitaiCharactersRev.txt (Generated from: JPShinjitaiCharacters.txt)
 # License: Apache-2.0 (see LICENSE)
-# Source: https://github.com/BYVoid/OpenCC
+# Source: https://github.com/byvoid/OpenCC
 
 䀋	䀋
 乘	乗
