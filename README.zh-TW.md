@@ -31,4 +31,4 @@ dictionary_file = opencc_data.data_path("STCharacters.txt")
 testcases_file = opencc_data.test_data_path("testcases.json")
 ```
 
-正式版在 npm 與 PyPI 會使用相同版本號，例如 `1.3.2`。`next` prerelease 則會在 PyPI 使用對應的 PEP 440 版本：例如 `1.4.0-next.20260628` 會以 `1.4.0.dev20260628` 發佈到 PyPI。
+正式版在 npm 與 PyPI 會使用相同版本號，例如 `1.3.2`。`next` prerelease 則會在 PyPI 使用對應的 PEP 440 版本：例如 `1.4.0-next.20260628` 會以 `1.4.0.dev20260628` 發佈到 PyPI。帶序號的 `alpha`／`beta`／`rc` prerelease 亦同理：`1.5.0-beta.0` 會以 `1.5.0b0` 發佈到 PyPI。

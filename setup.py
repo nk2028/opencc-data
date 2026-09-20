@@ -44,10 +44,18 @@ def python_version(npm_version: str) -> str:
     if numbered_next:
         return f"{numbered_next.group(1)}.dev{numbered_next.group(2)}"
 
+    numbered_prerelease = re.fullmatch(
+        r"(\d+\.\d+\.\d+)-(alpha|beta|rc)\.(\d+)", npm_version
+    )
+    if numbered_prerelease:
+        base, phase, number = numbered_prerelease.groups()
+        pep440_phase = {"alpha": "a", "beta": "b", "rc": "rc"}[phase]
+        return f"{base}{pep440_phase}{number}"
+
     raise ValueError(
         f"{npm_version!r} is not a supported PyPI version. "
-        "Use a release version like 1.3.2 or a next prerelease like "
-        "1.4.0-next.20260628."
+        "Use a release version like 1.3.2, a next prerelease like "
+        "1.4.0-next.20260628, or a numbered prerelease like 1.5.0-beta.0."
     )
 
 

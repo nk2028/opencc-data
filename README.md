@@ -31,4 +31,4 @@ dictionary_file = opencc_data.data_path("STCharacters.txt")
 testcases_file = opencc_data.test_data_path("testcases.json")
 ```
 
-Release versions match across npm and PyPI, such as `1.3.2`. For `next` prereleases, PyPI uses the PEP 440 equivalent of the npm version: for example, `1.4.0-next.20260628` is published to PyPI as `1.4.0.dev20260628`.
+Release versions match across npm and PyPI, such as `1.3.2`. For `next` prereleases, PyPI uses the PEP 440 equivalent of the npm version: for example, `1.4.0-next.20260628` is published to PyPI as `1.4.0.dev20260628`. Numbered `alpha` / `beta` / `rc` prereleases are mapped the same way: `1.5.0-beta.0` is published to PyPI as `1.5.0b0`.
