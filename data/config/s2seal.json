@@ -1,0 +1,51 @@
+{
+  "name": "Simplified Chinese to Small Seal Script",
+  "normalization": [
+    {
+      "dict": {
+        "type": "text",
+        "file": "CJK_Compatibility_Ideographs.txt"
+      }
+    }
+  ],
+  "conversion_chain": [
+    {
+      "dict": {
+        "type": "group",
+        "match_policy": "short_circuit",
+        "dicts": [
+          {
+            "type": "group",
+            "match_policy": "union",
+            "dicts": [
+              {
+                "type": "text",
+                "file": "STPhrases.txt"
+              },
+              {
+                "type": "text",
+                "file": "STPhrases_GeneratedFromRegionalPhrases.txt"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "file": "STCharacters.txt"
+          }
+        ]
+      }
+    },
+    {
+      "dict": {
+        "type": "text",
+        "file": "SealVariants.txt"
+      }
+    },
+    {
+      "dict": {
+        "type": "text",
+        "file": "SealCharactersRev.txt"
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
-  "build_time_utc": "2026-08-22T18:48:17+00:00",
-  "commit_id": "025f371dc76b598d77384fbdab90c937471844d8",
+  "build_time_utc": "2026-09-20T20:17:05+00:00",
+  "commit_id": "e02cb540b9f98b2da7868b4e8f7b43f88bacadc5",
   "entries": {
     "CJK_Compatibility_Ideographs.txt": {
       "sha256": "5ee4a07d93aafee09cd4417db067dbd42eac53ad4c6666d546ea58218b68f9ba",
@@ -54,17 +54,33 @@
       "sha256": "23255132b8fbce4425191e23ca8dba9c56a6490d9262cd62e19185d4c66f5b74",
       "size": 15301
     },
+    "SealCharacters.txt": {
+      "sha256": "196fce3c80ec730a987b000b431d6b5c3def4d7982d6ae2acc1dae3de6bfa56e",
+      "size": 104870
+    },
+    "SealCharactersRev.txt": {
+      "sha256": "d3dc40d68404716f599c0ee83b0bda9059af3c605a3dddd95ab1f88552e3f914",
+      "size": 104458
+    },
+    "SealVariants.txt": {
+      "sha256": "79019e239ba5f8ed06d5e04405580f801221af05fc87cb1ac397773be2ef8270",
+      "size": 9350
+    },
+    "SealVariantsRev.txt": {
+      "sha256": "4831c5f3542f763aa8177bdd447d828803934838f581d25bd2afc14e50fcca75",
+      "size": 9037
+    },
     "TSCharacters.txt": {
-      "sha256": "d8c619b5e61c3f3c0200be947cdb4e4e361a5dec01e0d3f805d601b0a8bde230",
-      "size": 38961
+      "sha256": "b1e4770df1bd9695191127761df634587bf96509c94c9eda85bdcd612bfb52e6",
+      "size": 38965
     },
     "TSCharactersExt.txt": {
       "sha256": "239a67aae2bb6b4999f65e1df50ee67794ea5b63d269a8e6cb9a99efe0eb749e",
       "size": 8345
     },
     "TSPhrases.txt": {
-      "sha256": "85e4bb2ad661537fdd6c7e40cbaccb2eaa6575f19aeb431d10768c80a4bd8c01",
-      "size": 8527
+      "sha256": "1c073bbd23042bc3ee2d5f06abb344d764e70f3d9b0229354027b75ae7fa153e",
+      "size": 8569
     },
     "TWPhrases.txt": {
       "sha256": "d08ca010ba15a798e696c536b4805098209335c939489fe571b33a6d59e22db5",
@@ -75,16 +91,16 @@
       "size": 18981
     },
     "TWVariants.txt": {
-      "sha256": "1c03c64bff4c66c5a3a6df49e83bfd4f9531a768ab4b0c7a25b5fb1510bf0cd6",
-      "size": 336
+      "sha256": "9caad7d792ddb3e8ba8e2919a5576e1ba19d1006045dbb1702938000158964f3",
+      "size": 328
     },
     "TWVariantsPhrases.txt": {
       "sha256": "34a8637506603b2790baab4c0197ff28896b5f0fa60e60cf65d6fa0003bd5329",
       "size": 264
     },
     "TWVariantsRev.txt": {
-      "sha256": "ab059484c60f0983a8c841cd1edb622db883bf7627a872c92e29f70ec9ecd2de",
-      "size": 336
+      "sha256": "9acedefa5422ee1dd3152981eb2f52ebb5a2b8da0c19430b406f382140db3e64",
+      "size": 328
     },
     "TWVariantsRevPhrases.txt": {
       "sha256": "93a10ecd43c0efddd5eacb11174a30d8af19f74f4cb0569d6478db08623f1c2a",
@@ -114,6 +130,10 @@
       "sha256": "6b41eb4d37136dea91427863abc0a07ffd62bfd0dbd7fe84be270b1e381399c4",
       "size": 1588
     },
+    "s2seal.json": {
+      "sha256": "eb486aa89f12279905e7e286e89e0d636f4a0be5b20336619b92474c01c769a5",
+      "size": 1007
+    },
     "s2t.json": {
       "sha256": "7f7eaa0e4382caca14dc2e8e7532a7b0a949453ed907975190b358598bb2f7ad",
       "size": 830
@@ -126,6 +146,10 @@
       "sha256": "6592f548ce0970001b9aa9b787fe7ec92d4ff7ac9279327055003106df71ec1d",
       "size": 1593
     },
+    "seal2t.json": {
+      "sha256": "231429d371d537ee865d76029e97e7910f21c3e4916c55a160ab7ddcf4fe17f5",
+      "size": 430
+    },
     "t2hk.json": {
       "sha256": "31e9d619521ea42847af2d4508a9264198ef3a4e7cec49b297f744e455bfe947",
       "size": 580
@@ -137,6 +161,10 @@
     "t2s.json": {
       "sha256": "96ee603fd8030348a466ba0049771f6c69e15684c14653068c96f4356f45950c",
       "size": 685
+    },
+    "t2seal.json": {
+      "sha256": "cf8e39c422a56c479c1e5b76ace1f4873c39b1121bf8050a15ea843c96ab2239",
+      "size": 430
     },
     "t2tw.json": {
       "sha256": "dc89642867f714976510a4912ee6dcfeffd80a244518461ade3aa8a1debf0ec5",
@@ -158,5 +186,5 @@
   "hash_algorithm": "sha256",
   "manifest_version": 1,
   "source_dirty": false,
-  "source_url": "https://github.com/BYVoid/OpenCC"
+  "source_url": "https://github.com/byvoid/OpenCC"
 }

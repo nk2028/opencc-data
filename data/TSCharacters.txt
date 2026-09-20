@@ -1,7 +1,7 @@
 # Open Chinese Convert (OpenCC) Dictionary
 # File: TSCharacters.txt
 # License: Apache-2.0 (see LICENSE)
-# Source: https://github.com/BYVoid/OpenCC
+# Source: https://github.com/byvoid/OpenCC
 
 㑮	㑮 𫝈
 㑯	㑔
@@ -1992,7 +1992,7 @@
 薟	莶
 薦	荐
 薩	萨
-薳	䓕
+薳	薳 䓕
 薴	苧
 薵	䓓
 薹	苔 薹
